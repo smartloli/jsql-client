@@ -21,8 +21,8 @@ for(int i=0;i<array.size();i++){
 ```
 
 ## JSql Client
-```sql
-// Use SQL ...
+```java
+// ... Use SQL
 
 SELECT SUM(column) FROM TBL;
 
