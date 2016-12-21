@@ -28,3 +28,19 @@ SELECT SUM(column) FROM TBL;
 
 // ...
 ```
+
+# Dependency
+In ```pom.xml``` ，you can add follow context : 
+```xml
+<dependency>
+	<groupId>org.smartloli</groupId>
+	<artifactId>jsql-client</artifactId>
+	<version>1.0.0</version>
+</dependency>
+```
+
+# Developer
+you can import ```JSqlUtils``` class, and use ```query``` method,like this :
+```java
+JSqlUtils.query(tabSchema, tableName, dataSets, sql);
+```
